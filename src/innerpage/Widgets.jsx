@@ -13,8 +13,17 @@ const Widgets = () => {
 
        <div className=' flex  p-5 gap-4'> 
     
+        <div className='bg-bgcolor text-scolor p-5'>
+    <b className='text-white'>Testimonial</b>
+    <div className='flex flex-col gap-2 justify-center items-center'>
+      <img src="/testimonial-1.jpg" alt=""  className=' rounded-full'/>
+
+<p className='text-white'>Client Name</p>
+<p>Profession</p>
+<p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quaerat!</p>
+    </div>
+        </div>
         
-     
         <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.07953650141!2d77.65917002395751!3d30.659888739152382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f38b228f58989%3A0x76818af9e4eddb40!2sKaffota%2C%20Himachal%20Pradesh%20173027!5e0!3m2!1sen!2sin!4v1721649052259!5m2!1sen!2sin" width="550" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

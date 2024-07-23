@@ -1,5 +1,6 @@
 import React from 'react'
-import {Bar,Line,PolarArea,Pie} from "react-chartjs-2"
+import {Bar,Line,PolarArea,Pie}  from "react-chartjs-2"
+
 import {Chart} from "chart.js/auto"
 import Footer from '../components/Footer'
 
@@ -27,21 +28,23 @@ const data={
   }
 
 const Charts = () => {
+
+
   return (<div className='bg-black'> 
     <div className=' grid gap-4 lg:grid-cols-2 p-5 '>
-   <div className='bg-bgcolor'>
+   <div className='bg-bgcolor p-4'>
 
    <Line data={data} className=' w-full '> </Line>
    </div>
-   <div className='bg-bgcolor'>
+   <div className='bg-bgcolor p-4'>
 
    <Bar data={data} className=' w-full '> </Bar>
    </div>
-   <div className='bg-bgcolor'>
+   <div className='bg-bgcolor p-4'>
 
 <PolarArea data={data} className=' w-full '> </PolarArea>
 </div>
-<div className='bg-bgcolor'>
+<div className='bg-bgcolor p-4'>
 
 <Pie data={data} className=' w-full '> </Pie>
 </div>
