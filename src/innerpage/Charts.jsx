@@ -31,22 +31,22 @@ const Charts = () => {
 
 
   return (<div className='bg-black'> 
-    <div className=' grid gap-4 lg:grid-cols-2 p-5 '>
+    <div className=' grid gap-4 grid-cols-1 lg:grid-cols-2 p-5 '>
    <div className='bg-bgcolor p-4'>
 
-   <Line data={data} className=' w-full '> </Line>
+   <div className='flex items-center justify-center'><Line data={data} className='w-full'> </Line></div>
    </div>
    <div className='bg-bgcolor p-4'>
 
-   <Bar data={data} className=' w-full '> </Bar>
+ <div className='flex items-center justify-center'>  <Bar data={data} className=' w-full '> </Bar></div>
    </div>
    <div className='bg-bgcolor p-4'>
 
-<PolarArea data={data} className=' w-full '> </PolarArea>
+ <div className='flex items-center justify-center'><PolarArea data={data} className='  w-full'> </PolarArea></div> 
 </div>
 <div className='bg-bgcolor p-4'>
 
-<Pie data={data} className=' w-full '> </Pie>
+ <div className='flex items-center justify-center'><Pie data={data} className=' w-full '> </Pie></div> 
 </div>
 
     </div>

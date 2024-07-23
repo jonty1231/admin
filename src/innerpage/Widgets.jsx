@@ -11,7 +11,7 @@ const Widgets = () => {
     <div className='bg-black '  > 
         <CalenderSection  className="w-full"/>
 
-       <div className=' flex  p-5 gap-4'> 
+       <div className=' flex  p-5 gap-4 flex-col lg:flex-row'> 
     
         <div className='bg-bgcolor text-scolor p-5'>
     <b className='text-white'>Testimonial</b>
